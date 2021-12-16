@@ -39,9 +39,16 @@ const Projects = () => {
                             title: 'Weather App',
                             desc: 'Weather App made with React, OpenWeather API and Geolocation API. Styled with Chakra UI and deployed with Firebase.',
                             demolink: 'https://weatherapp-939a1.web.app/',
-                            sourcelink:
-                                'https://github.com/juanchifassio/Weather-App',
+                            sourcelink: 'https://github.com/juanchifassio/Weather-App',
                             tag: 'Javascript - React'
+                        },
+                        {
+                            title: 'CRM project',
+                            desc: 'Customer Relationship Management project, where you can manage your agents and assign them leads. This is my first Django project.',
+                            demolink: 'https://crm-byjuanfassio.herokuapp.com/',
+                            sourcelink:
+                                'https://github.com/juanchifassio/CRM/tree/master',
+                            tag: 'Python - Django'
                         }
                     ]}
                 />

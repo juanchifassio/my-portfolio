@@ -58,7 +58,7 @@ const ProjectCard = ({ projects }) => {
                             </Button>
                         </Link>
                         <Link
-                            href={project.demosource}
+                            href={project.sourcelink}
                             isExternal
                             style={{ textDecoration: 'none' }}
                         >
