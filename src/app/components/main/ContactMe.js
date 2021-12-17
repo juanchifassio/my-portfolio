@@ -16,6 +16,7 @@ import {
     Textarea,
     useColorModeValue
 } from '@chakra-ui/react';
+import { useToast } from '@chakra-ui/react';
 import { MdPhone, MdEmail, MdLocationOn, MdOutlineEmail } from 'react-icons/md';
 import { BsPerson } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -24,6 +25,8 @@ import emailjs from 'emailjs-com';
 
 const ContactMe = () => {
     const form = useRef();
+    const toast = useToast();
+
     function sendEmail(e) {
         e.preventDefault();
         emailjs
@@ -42,6 +45,13 @@ const ContactMe = () => {
                 }
             );
         e.target.reset();
+        toast({
+            title: 'Email recieved!',
+            description: 'I will get in touch soon.',
+            status: 'success',
+            duration: 9000,
+            isClosable: true
+        });
     }
 
     return (
@@ -97,6 +107,7 @@ const ContactMe = () => {
                                                             borderColor: 'teal'
                                                         }}
                                                         name="name"
+                                                        isRequired
                                                     />
                                                 </InputGroup>
 
@@ -117,6 +128,7 @@ const ContactMe = () => {
                                                         type="text"
                                                         size="md"
                                                         placeholder="mail"
+                                                        isRequired
                                                         _hover={{
                                                             borderColor: 'teal'
                                                         }}
@@ -132,6 +144,7 @@ const ContactMe = () => {
                                                     }}
                                                     autoComplete={false}
                                                     name="message"
+                                                    isRequired
                                                 />
 
                                                 <Button
