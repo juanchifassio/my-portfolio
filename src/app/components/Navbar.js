@@ -10,7 +10,7 @@ import {
     Heading
 } from '@chakra-ui/react';
 import { FaMoon, FaSun } from 'react-icons/fa';
-import CV from '../../documents/Resume_Fassio.pdf'
+import CV from '../../documents/RESUME_Fassio_Juan_2021.pdf';
 
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode();
