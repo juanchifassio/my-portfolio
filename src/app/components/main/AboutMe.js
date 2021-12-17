@@ -47,9 +47,9 @@ const AboutMe = () => {
                 fontWeight={'bold'}
                 fontSize={'lg'}
             >
-                This was a modest summary of my journey on my pursuit of
-                becoming one day a developer. My main goal now is learning new
-                techs, being part of awesome projects and form incredible teams.
+                This was a brief summary of my journey on my pursuit of becoming
+                one day a developer. My main goal now is learning new techs,
+                being part of awesome projects and form incredible teams.
             </Text>
         </Box>
     );
