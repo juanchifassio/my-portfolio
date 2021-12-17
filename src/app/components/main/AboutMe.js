@@ -29,14 +29,27 @@ const AboutMe = () => {
             >
                 Hi! My name is Juan Martin Fassio. I am a self taught computer
                 programmer (learning since August 2021), and ever since i
-                started, i have dedicated all my spare time to it. I first
-                started learning Python and got pretty good at algorithms, but i
-                wanted to learn more. So i began learning Django and React, and
-                started developing simple web pages. Im really looking forward
-                to work on a tech company and learn more stuff! soy un campeon y
-                un capo xddd soy un campeon y un capo xddd soy un campeon y un
-                capo xddd soy un campeon y un capo xddd soy un campeon y un capo
-                xddd soy un campeon y un capo xddd soy un campeon y un capo xddd
+                started, i have been fully immersed in the coding world. I first
+                started learning Python, it's syntax, basic algorithms (and some
+                really complex ones), functions, classes and methods, threads
+                and much more. I began learning MySQL and managed to merge it
+                with my web scraping skills (beautifulSoup 🥣), but i wanted to
+                learn more. This was the moment i heard about Django, this web
+                production framework, so i put my hands on it. Learning Django
+                woke up my curiosity towards the front end part of web
+                development. So i dug into HTML, CSS, Javascript (what a
+                journey!) and finally React, the library i feel most comfortable
+                working on right now.{' '}
+            </Text>
+            <Text
+                px={{ base: 0, sm: 50, md: 200, lg: 350 }}
+                my={30}
+                fontWeight={'bold'}
+                fontSize={'lg'}
+            >
+                This was a modest summary of my journey on my persuit of
+                becoming one day a developer. My main goal now is learning new
+                techs, being part of awesome projects and form incredible teams.
             </Text>
         </Box>
     );

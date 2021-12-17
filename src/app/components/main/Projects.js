@@ -30,7 +30,7 @@ const Projects = () => {
                     projects={[
                         {
                             title: 'Crypto News App',
-                            desc: 'Crypto App made with React, Chart.js, News API and CoinGecko Api. Styled with Chakra UI (still working on it!).',
+                            desc: 'Crypto App made with React, Chart.js, News API and CoinGecko Api. Styled with Chakra UI (still working on it! Demo soon 😊).',
                             demolink: '#',
                             sourcelink: 'https://github.com/juanchifassio/MelonCrypto/tree/main/melon-crypto%20-%20copia',
                             tag: 'Javascript - React'

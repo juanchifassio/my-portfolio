@@ -10,6 +10,7 @@ import {
     Heading
 } from '@chakra-ui/react';
 import { FaMoon, FaSun } from 'react-icons/fa';
+import CV from '../../documents/Resume_Fassio.pdf'
 
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode();
@@ -70,6 +71,7 @@ const Navbar = () => {
                             </Box>
                         </Stack>
                         <Link
+                            href={CV}
                             isExternal
                             style={{ textDecoration: 'none' }}
                             ml={10}
