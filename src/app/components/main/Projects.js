@@ -33,7 +33,7 @@ const Projects = () => {
                             desc: 'Crypto App made with React, Chart.js, Chakra UI and Firebase Services (Auth, Realtime DataBase, Hosting).',
                             demolink: 'https://meloncrypto-auth-dev.web.app/',
                             sourcelink:
-                                'https://github.com/juanchifassio/MelonCrypto/tree/main/melon-crypto%20-%20copia',
+                                'https://github.com/tomascabralh/melon-crypto/tree/darkmode',
                             tag: 'Javascript - React'
                         },
                         {
