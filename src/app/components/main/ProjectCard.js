@@ -5,13 +5,11 @@ import {
     Stack,
     Center,
     Heading,
-    useColorModeValue,
     Tag,
     Button,
     Link,
-    DarkMode
+    Flex
 } from '@chakra-ui/react';
-import theme from '../../../theme';
 
 const ProjectCard = ({ projects }) => {
     const renderProjects = projects.map((project) => (
@@ -25,7 +23,7 @@ const ProjectCard = ({ projects }) => {
                 rounded={'lg'}
                 pos={'relative'}
                 zIndex={1}
-                height={'400px'}
+                minH={'400px'}
                 fontFamily={'mono'}
             >
                 <Tag size={'md'} variant="solid" colorScheme="teal" mr={150}>
@@ -40,14 +38,11 @@ const ProjectCard = ({ projects }) => {
                         {project.title}
                     </Heading>
                     <Stack>
-                        <Text
-                            fontWeight={100}
-                            fontSize={'md'}
-                            justifyContent={'center'}
-                            mb={10}
-                        >
-                            {project.desc}
-                        </Text>
+                        <Flex textAlign={'justify'}>
+                            <Text fontWeight={100} fontSize={'md'} mb={10}>
+                                {project.desc}
+                            </Text>
+                        </Flex>
                         <Link
                             href={project.demolink}
                             isExternal

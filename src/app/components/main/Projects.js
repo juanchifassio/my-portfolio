@@ -29,6 +29,14 @@ const Projects = () => {
                 <ProjectCard
                     projects={[
                         {
+                            title: 'Appointment Scheduler App',
+                            desc: 'Appointment Scheduler App where you, as a service provider, can set up your schedule for clients to book appointments. Made with React JS, Typescript, Firebase Database and Authenticacion. Demo soon!',
+                            demolink: '#',
+                            sourcelink:
+                                'https://github.com/juanchifassio/Appointment-Scheduler-App',
+                            tag: 'Typescript - React'
+                        },
+                        {
                             title: 'Crypto News App',
                             desc: 'Crypto App made with React, Chart.js, Chakra UI and Firebase Services (Auth, Realtime DataBase, Hosting).',
                             demolink: 'https://meloncrypto-auth-dev.web.app/',
